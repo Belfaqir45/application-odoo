@@ -20,7 +20,7 @@ public class MainActivity3 extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Redirection vers MainActivity
+                // Redirection vers MainActivity AMOKRANE
                 Intent intent = new Intent(MainActivity3.this, MainActivity.class);
                 startActivity(intent);
             }
@@ -29,7 +29,7 @@ public class MainActivity3 extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Redirection vers MainActivity2
+                // Redirection vers MainActivity2 
                 Intent intent = new Intent(MainActivity3.this, MainActivity2.class);
                 startActivity(intent);
             }
