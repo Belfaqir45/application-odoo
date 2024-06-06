@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity5">
 
-    <!-- Bouton pour accéder à une fonctionnalité -->
+    <!-- Bouton pour accéder à une fonctionnalité jjhg -->
 
     <ImageView
         android:id="@+id/image"

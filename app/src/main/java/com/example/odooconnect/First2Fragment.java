@@ -15,7 +15,7 @@ public class First2Fragment extends Fragment {
 
     private FragmentFirst2Binding binding;
 
-    @Override
+    @Override 
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
