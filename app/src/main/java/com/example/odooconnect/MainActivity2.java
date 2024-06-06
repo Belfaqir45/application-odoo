@@ -26,7 +26,7 @@ public class MainActivity2 extends Activity {
 
         findViewById(R.id.button4).setOnClickListener(view -> {
             try {
-                String adresse = "http://192.168.1.125:81/php/connection.php?rech2=" + rech2.getText().toString();
+                String adresse = "http://192.168.43.62:81/php/connection.php?rech2=" + rech2.getText().toString();
                 String wololo = new HTTPRequest.HTTPSELECTRequest().execute(adresse).get();
                 jArray = new JSONArray(wololo);
                 i = 0;
