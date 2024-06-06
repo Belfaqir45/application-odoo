@@ -5,4 +5,9 @@
     <color name="app_color">#2C7873</color>
     <color name="btn_color">#F9B34C</color>
     <color name="icon_color">#9E9E9E</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
 </resources>

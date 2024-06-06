@@ -5,76 +5,103 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple_200"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="123dp">
+        android:background="@color/white"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="4dp"
+        android:layout_margin="16dp">
 
         <EditText
             android:id="@+id/rech"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text" />
+            android:layout_marginBottom="16dp"
+            android:hint="Rechercher"
+            android:inputType="text"
+            android:padding="10dp"
+            android:backgroundTint="@color/purple_500"/>
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Rechercher" />
+            android:layout_marginBottom="16dp"
+            android:text="Rechercher"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_500"/>
 
         <TextView
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Name" />
+            android:layout_marginBottom="8dp"
+            android:text="Name"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/street"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Street" />
+            android:layout_marginBottom="8dp"
+            android:text="Street"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/mail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email" />
+            android:layout_marginBottom="16dp"
+            android:text="Email"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Précédent" />
+                android:text="Précédent"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/purple_500"
+                android:layout_marginEnd="8dp"/>
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Suivant" />
-
-            <Button
-                android:id="@+id/button_redirect"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Rediriger vers accueil"
-                android:layout_below="@id/button3"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="16dp"/>
-
+                android:text="Suivant"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/purple_500"
+                android:layout_marginStart="8dp"/>
         </LinearLayout>
 
+        <Button
+            android:id="@+id/button_redirect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Rediriger vers accueil"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_500"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
